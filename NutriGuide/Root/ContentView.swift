@@ -23,6 +23,7 @@ struct ContentView: View {
                 .tag(tab)
             }
         }
+        .colorScheme(.light)
         .tint(NutriColors.olive)
     }
 }

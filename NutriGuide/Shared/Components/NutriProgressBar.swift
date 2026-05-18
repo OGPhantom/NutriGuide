@@ -3,7 +3,7 @@ import SwiftUI
 struct NutriProgressBar: View {
     let value: Double
     let goal: Double
-    var tint: Color = NutriColors.olive
+    var tint: Color = NutriColors.oliveDark
     var height: CGFloat = 7
 
     private var progress: Double {

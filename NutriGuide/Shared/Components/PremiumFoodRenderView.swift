@@ -1,6 +1,8 @@
 import SwiftUI
 
 struct PremiumFoodRenderView: View {
+    var size: CGFloat = 118
+
     var body: some View {
         ZStack {
             Circle()
@@ -22,12 +24,15 @@ struct PremiumFoodRenderView: View {
                 .overlay(
                     Capsule()
                         .stroke(Color(hex: 0xB98555).opacity(0.35), lineWidth: 1)
+                        .rotationEffect(.degrees(-20))
                 )
 
             avocado
                 .offset(x: 10, y: 22)
         }
         .frame(width: 118, height: 118)
+        .scaleEffect(size / 118)
+        .frame(width: size, height: size)
         .accessibilityHidden(true)
     }
 

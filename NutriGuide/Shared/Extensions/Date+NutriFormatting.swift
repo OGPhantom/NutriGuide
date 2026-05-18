@@ -10,10 +10,6 @@ extension Date {
             return nil
         }
 
-        if calendar.isDateInYesterday(self) {
-            return "Yesterday"
-        }
-
         return formatted(.dateTime.month(.abbreviated).day())
     }
 

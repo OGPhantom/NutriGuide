@@ -9,7 +9,7 @@ struct NutriFilterChip: View {
         Button(action: action) {
             Text(title)
                 .font(NutriTypography.captionSemibold)
-                .padding(.horizontal, 14)
+                .padding(.horizontal, 12)
                 .padding(.vertical, 9)
                 .foregroundStyle(isSelected ? .white : NutriColors.oliveDark)
                 .background(isSelected ? NutriColors.olive : NutriColors.surface)

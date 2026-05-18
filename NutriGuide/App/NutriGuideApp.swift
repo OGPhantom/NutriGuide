@@ -14,6 +14,6 @@ struct NutriGuideApp: App {
         WindowGroup {
             ContentView()
         }
-        .modelContainer(for: [MealEntry.self, MealIngredient.self, UserProfile.self])
+        .modelContainer(for: [MealEntry.self, MealIngredient.self, UserProfile.self, CoachInsight.self])
     }
 }

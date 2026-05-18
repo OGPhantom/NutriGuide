@@ -39,8 +39,12 @@ enum AppTab: String, CaseIterable, Identifiable {
         switch self {
         case .home:
             HomeView()
-        case .diary, .insights, .me:
-            PlaceholderTabView(title: title)
+        case .diary:
+            DiaryView()
+        case .me:
+            ProfileView()
+        case .insights:
+            InsightsView()
         }
     }
 }
