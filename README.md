@@ -2,6 +2,8 @@
 A **premium AI-powered nutrition coach for iOS** built with **SwiftUI**, **SwiftData**, **OpenAI Vision**, and **Apple Intelligence (FoundationModels)**.  
 Scan your **meals with the camera**, review estimated **calories and macros**, and generate **personalized AI nutrition insights** from your recent food history.
 
+> 📱 **Coming to the App Store.** This repository holds the spring 2026 version I built for my portfolio. The app has grown a lot since then and is being finished for release on the App Store, so the current code is not published here.
+
 ---
 
 ### 📌 Short Description
